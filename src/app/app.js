@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-import WeatherInfo from './components/weatherInfo';
-import WeatherForm from './components/weatherForm';
+import WeatherInfo from './components/weatherInfo.js';
+import WeatherForm from './components/weatherForm.js';
 import s from './app.module.css';
 
-import {getWeather} from './../Actions/getWeather.js';
+import {getWeather} from '../Actions/actions.js';
 
 function App() {
 
+   
+ 
     return (
         <div className="container p-4">
             <div className="row p-3">
